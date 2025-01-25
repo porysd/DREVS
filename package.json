@@ -2,7 +2,7 @@
   "name": "drevs",
   "module": "index.ts",
   "type": "module",
-  "workspaces": ["frontend", "backend"],
+  "workspaces": ["Frontend", "Backend"],
   "devDependencies": {
     "@types/bun": "latest"
   },

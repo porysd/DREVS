@@ -10,7 +10,7 @@
         "typescript": "^5.0.0",
       },
     },
-    "backend": {
+    "Backend": {
       "name": "backend",
       "dependencies": {
         "@hono/zod-validator": "^0.4.2",
@@ -34,7 +34,7 @@
         "typescript": "^5.0.0",
       },
     },
-    "frontend": {
+    "Frontend": {
       "name": "frontend",
       "version": "0.0.0",
       "dependencies": {
@@ -320,7 +320,7 @@
 
     "axios": ["axios@1.7.9", "", { "dependencies": { "follow-redirects": "^1.15.6", "form-data": "^4.0.0", "proxy-from-env": "^1.1.0" } }, "sha512-LhLcE7Hbiryz8oMDdDptSrWowmB4Bl6RCt6sIJKpRB4XtVf0iEgewX3au/pJqm+Py1kCASkb/FFKjxQaLtxJvw=="],
 
-    "backend": ["backend@workspace:backend"],
+    "backend": ["backend@workspace:Backend"],
 
     "balanced-match": ["balanced-match@1.0.2", "", {}, "sha512-3oSeUO0TMV67hN1AmbXsK4yaqU7tjiHlbxRDZOpH0KW9+CeX4bRAaX0Anxt0tx2MrpRpWwQaPwIlISEJhYU5Pw=="],
 
@@ -510,7 +510,7 @@
 
     "fraction.js": ["fraction.js@4.3.7", "", {}, "sha512-ZsDfxO51wGAXREY55a7la9LScWpwv9RxIrYABrlvOFBlH/ShPnrtsXeuUIfXKKOVicNxQ+o8JTbJvjS4M89yew=="],
 
-    "frontend": ["frontend@workspace:frontend"],
+    "frontend": ["frontend@workspace:Frontend"],
 
     "fs-minipass": ["fs-minipass@2.1.0", "", { "dependencies": { "minipass": "^3.0.0" } }, "sha512-V/JgOLFCS+R6Vcq0slCuaeWEdNC3ouDlJMNIsacH2VtALiu9mV4LPrHc5cDl8k5aw6J8jwgWWpiTo5RYhmIzvg=="],
 
